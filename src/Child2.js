@@ -6,7 +6,7 @@ export default function Child2() {
 
   return (
     <div>
-      <h2>Second Child using counter reducer</h2>
+      <h2>Child2 using counter reducer</h2>
       <h3>Value of reducer state is: {state}</h3>
       <button onClick={() => dispatch("INCREAMENT")}>Increament</button>
       <button onClick={() => dispatch("DECREAMENT")}>Decreament</button>
