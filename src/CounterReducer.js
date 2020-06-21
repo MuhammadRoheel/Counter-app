@@ -7,6 +7,7 @@ function CounterReducer(state, action) {
       return --state;
     case "RESET":
       return (state = 0);
+    default:
   }
 }
 
