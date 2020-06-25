@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://react-counter-app-bootcamp2020.surge.sh/ --token 0969060500711623fcbfe279568dc6c1
+      run: surge ./build http://react-counter-app-bootcamp2020.surge.sh/ --token ${{secrets.Counter_Secret}}
